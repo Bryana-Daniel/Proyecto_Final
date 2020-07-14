@@ -1,25 +1,4 @@
 # Proyecto_Final
-import java.awt.event.ActionListener;
-import java.awt.event.ActionEvent;
-import java.io.*;
-import javax.swing.*;
-import java.util.*;
-import java.awt.*;
-
-public class Main{
-
-
-public static void main(String[] args) {
-		EventQueue.invokeLater(new Runnable() {
-			public void run() {
-				try
-				{
-					Main_Gral dialog = new Main_Gral();
-				} 
-				catch (Exception e) {
-					e.printStackTrace();
-				}
-			}
-		});
-	}
-}
+El fin de este proyecto es tener un registro de la entrada de pacientes en un hospital, 
+saber cuando fue que llego y si llego con un caso de emergencia (accidente) o el paciente presentaba
+algun malestar y solo necesita una consulta, un tratamiento o ser hospitalizados. 
